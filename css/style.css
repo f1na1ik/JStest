@@ -1,0 +1,10 @@
+.screens {
+    display: flex;
+}
+.screen{
+    width: 400px;
+    margin: 5px;
+}
+.screen img {
+    width: 100%;
+}
