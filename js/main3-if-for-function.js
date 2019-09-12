@@ -56,3 +56,42 @@ while (x<10000) {
     console.log(x);
     x = x * 3;
 }
+
+let browser = prompt('Введите название браузера');
+
+/* Вводим название браузера, пишет поддерживается или нет
+
+if (browser == 'Edge') {
+    alert('Use Edge, cool');
+} else if (browser == 'Chrome' || browser == 'Firefox' ||
+    browser == 'Safari' || browser == 'Opera') {
+    alert('Ok, podderjivaem toje')
+} else {
+    alert ('Podderjki net')
+}
+
+ */
+
+/* из if в switch
+
+let num = +prompt ('Введите число')
+
+switch (num) {
+    case 0:
+        alert('Vveli 0 ');
+        break;
+
+    case 1:
+        alert('Vveli 1');
+        break;
+
+    case 2:
+    case 3:
+        alert ('Vveli 2 ili 3');
+        break;
+
+    default:
+        alert ('VVeli hz chto');
+}
+
+*/
